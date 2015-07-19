@@ -1,0 +1,20 @@
+//
+//  Global-Prefix.pch
+//  global
+//
+//  Created by kunge on 15/4/16.
+//  Copyright (c) 2015年 cyb. All rights reserved.
+//
+
+#ifndef global_Global_Prefix_pch
+#define global_Global_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#import <XLForm.h>
+//#import <YTKNetwork/YTKRequest.h>
+//#import "GlobalApi.h"
+//#import "GlobalURLs.h"
+
+#endif

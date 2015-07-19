@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>24B4B26B-96C2-4F5A-BE23-79EE44C92FAA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tripnote</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5FADFB8733F2449A136023CB1F18AD9993FA505A</key>
+		<string>https://bitbucket.org/jbas/cybios_module_tripnote_cyb.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tripnote/tripnote.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5FADFB8733F2449A136023CB1F18AD9993FA505A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jbas/cybios_module_tripnote_cyb.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5FADFB8733F2449A136023CB1F18AD9993FA505A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5FADFB8733F2449A136023CB1F18AD9993FA505A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cybios_module_tripnote_cyb</string>
+		</dict>
+	</array>
+</dict>
+</plist>

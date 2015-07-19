@@ -1,0 +1,89 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BTLabel (1.0.1)
+  - CTAssetsPickerController (2.9.3)
+  - DKImageBrowser (0.1.4)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - JSBadgeView (1.4.1)
+  - JSONModel (1.1.0)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (1.4.6)
+  - Qiniu (7.0.10):
+    - AFNetworking (~> 2.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - XLForm (3.0.0)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+  - YTKNetwork (0.4.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - BTLabel
+  - CTAssetsPickerController
+  - DKImageBrowser
+  - JSBadgeView
+  - JSONModel
+  - MBProgressHUD
+  - MJRefresh
+  - Qiniu
+  - SDWebImage
+  - XLForm (from `https://github.com/xmartlabs/XLForm.git`)
+  - YTKKeyValueStore
+  - YTKNetwork
+
+EXTERNAL SOURCES:
+  XLForm:
+    :git: https://github.com/xmartlabs/XLForm.git
+
+CHECKOUT OPTIONS:
+  XLForm:
+    :commit: 395ad92609508df3cd1da0aa96a450fee462da28
+    :git: https://github.com/xmartlabs/XLForm.git
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  BTLabel: bce36185efc4a5a4a616b556d452606c15574ac3
+  CTAssetsPickerController: 56a4a228dcb48a9375ab8d4922e82ac74af74aa1
+  DKImageBrowser: d519b04f2bf4fb72316048239120c5d8775cde6f
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  JSONModel: ec77e9865236a7a09d9cf7668df6b4b328d9ec1d
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 2eaa3fd8f67fbb86497840fb0167446f7eb61dc7
+  Qiniu: f45793482466109c7a11987cb0353010c31b0799
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  XLForm: 10fc7eb9e2d5df21a515fa3a794f4e26319abd0e
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
+  YTKNetwork: bff731e698aa1b5071659a28fd5b898cad7e77a2
+
+COCOAPODS: 0.36.4

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="IlH-wz-er8" customClass="CYBAddRowView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVa-Dv-VyU">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="3ff-Dg-e8S"/>
+                        <constraint firstAttribute="width" constant="162" id="AYt-5I-d5X"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <inset key="titleEdgeInsets" minX="6" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="添加" image="addRow.png">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="3ff-Dg-e8S"/>
+                            <exclude reference="AYt-5I-d5X"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="rowBtnClick:" destination="IlH-wz-er8" eventType="touchUpInside" id="Eyq-Ra-eS5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="sVa-Dv-VyU" firstAttribute="leading" secondItem="IlH-wz-er8" secondAttribute="leading" id="2EF-Uu-zuA"/>
+                <constraint firstAttribute="bottom" secondItem="sVa-Dv-VyU" secondAttribute="bottom" id="d0u-oW-Qnf"/>
+                <constraint firstAttribute="trailing" secondItem="sVa-Dv-VyU" secondAttribute="trailing" id="vra-Ty-EZ8"/>
+                <constraint firstItem="sVa-Dv-VyU" firstAttribute="top" secondItem="IlH-wz-er8" secondAttribute="top" id="xIJ-r5-1Ck"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="rowBtn" destination="sVa-Dv-VyU" id="TMe-fj-xAR"/>
+            </connections>
+            <point key="canvasLocation" x="395" y="180"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addRow.png" width="17" height="17"/>
+    </resources>
+</document>

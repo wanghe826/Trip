@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="1wl-zd-NOz">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="lha-Hh-qMT">
+            <objects>
+                <navigationController id="1wl-zd-NOz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jdj-fj-1sL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ukg-zt-aBd" kind="relationship" relationship="rootViewController" id="XWt-XL-ht8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Jk-UG-Fb1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86.400000000000006" y="340.80000000000001"/>
+        </scene>
+        <!--我的记事-->
+        <scene sceneID="eDo-RA-Gha">
+            <objects>
+                <tableViewController id="ukg-zt-aBd" customClass="MyNoteViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="aUO-T3-hBr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="ukg-zt-aBd" id="md6-Bn-lol"/>
+                            <outlet property="delegate" destination="ukg-zt-aBd" id="f04-cd-BU4"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="我的记事" id="kmr-bc-VtC">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="A7Y-K0-sTx">
+                            <connections>
+                                <action selector="addNewNot:" destination="ukg-zt-aBd" id="C0W-YS-B4i"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="Zgg-cX-3xj" kind="push" identifier="note2addNote" id="jOG-b6-buM"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3xS-Rs-9QM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="337"/>
+        </scene>
+        <!--记事-->
+        <scene sceneID="RFG-ZE-IOe">
+            <objects>
+                <viewController title="记事" id="Zgg-cX-3xj" customClass="NewNoteViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Imv-Ir-vfW"/>
+                        <viewControllerLayoutGuide type="bottom" id="0oC-hz-E2g"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yVK-Pb-a9G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="记事" id="T9d-fP-GyN">
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="1fY-pZ-xsZ">
+                            <connections>
+                                <action selector="save:" destination="Zgg-cX-3xj" id="fil-Aw-9cM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vgd-QX-dbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="899" y="337"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

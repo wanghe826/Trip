@@ -1,0 +1,71 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection (= 2.5.2)
+    - AFNetworking/NSURLSession (= 2.5.2)
+    - AFNetworking/Reachability (= 2.5.2)
+    - AFNetworking/Security (= 2.5.2)
+    - AFNetworking/Serialization (= 2.5.2)
+    - AFNetworking/UIKit (= 2.5.2)
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BTLabel (1.0.1)
+  - CTAssetsPickerController (2.9.3)
+  - DKImageBrowser (0.1.4)
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - JSONModel (1.0.2)
+  - MBProgressHUD (0.9.1)
+  - Qiniu (7.0.9.1):
+    - AFNetworking (~> 2.0)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+  - YTKNetwork (0.2.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - BTLabel
+  - CTAssetsPickerController
+  - DKImageBrowser
+  - JSONModel
+  - MBProgressHUD
+  - Qiniu
+  - SDWebImage
+  - YTKKeyValueStore
+  - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: e223a65bc56fb8e6ae5d289b649c7bcc6b307f0d
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  BTLabel: 87d8379b31cf6b7b1f50d8a324c4108cc600ff8f
+  CTAssetsPickerController: 56a4a228dcb48a9375ab8d4922e82ac74af74aa1
+  DKImageBrowser: e60b6defa2cc7c990c09c2e37cc54f9fd4387f97
+  FMDB: 0efa188cf0dd1ce82c27a478cd5f5fa245308677
+  JSONModel: cbdef0fdff1cc70e913a860861d3072860efd3a1
+  MBProgressHUD: f3747dcbd45a9e855a6b0674550651e0b7ed250c
+  Qiniu: cd281425298a3f30495135ab9a9442bf400dab28
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  YTKKeyValueStore: a37a3ee636c1e064b7e2a2bcd016d016966f35ce
+  YTKNetwork: a01d2ac5bc03171917adf2856ec0fca2b0d00f8b
+
+COCOAPODS: 0.36.0

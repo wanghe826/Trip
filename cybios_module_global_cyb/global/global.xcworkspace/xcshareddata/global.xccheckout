@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C8DBB7E-31E3-474D-953D-F76E17B305AC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>global</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A1BF3E09A8B65EAA68221925C35B067554FADB5</key>
+		<string>https://bitbucket.org/jbas/cybios_module_imgmanager_cyb.git</string>
+		<key>32B761E975341483CE4CA7353F91A8D70DF315A5</key>
+		<string>https://bitbucket.org/jbas/cybios_module_core_cyb.git</string>
+		<key>D30DA0F8DE779205EC8D74D48EF825BCBA8CEF33</key>
+		<string>https://bitbucket.org/jbas/cybios_module_global_cyb.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>global/global.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A1BF3E09A8B65EAA68221925C35B067554FADB5</key>
+		<string>../../../cybios_module_imgmanager_cyb</string>
+		<key>32B761E975341483CE4CA7353F91A8D70DF315A5</key>
+		<string>../../../cybios_module_core_cyb</string>
+		<key>D30DA0F8DE779205EC8D74D48EF825BCBA8CEF33</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/jbas/cybios_module_global_cyb.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D30DA0F8DE779205EC8D74D48EF825BCBA8CEF33</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>32B761E975341483CE4CA7353F91A8D70DF315A5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cybios_module_core_cyb</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D30DA0F8DE779205EC8D74D48EF825BCBA8CEF33</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cybios_module_global_cyb</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A1BF3E09A8B65EAA68221925C35B067554FADB5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cybios_module_imgmanager_cyb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
